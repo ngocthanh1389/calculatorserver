@@ -1,0 +1,21 @@
+This tool run was tested on g++ (Ubuntu 4.8.4-2ubuntu1~14.04.4) 4.8.4
+
+Type make to build
+Type ./server to run tool
+Type make clean to clean
+
+This tool run on localhost (0.0.0.0 or 127.0.0.1) port 8888
+Use telnet to connect and send expression
+
+Testcase: 
+
+1+2 -> 3
+4*(2+10) -> 48
+(12/5) -> 2
+(1)) -> INVALID
+) 4 + 2 -> INVALID
+123*-4 -> INVALID
+1*2*3*4*5-6 -> 114
+1/(1-2) -> -1
+1/0 ->0
+( 3 + 2 * 4 ) * 7 -> 77
