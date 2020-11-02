@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <condition_variable>
 #include <unordered_set>
+#include <vector>
 
 #include "calculator.h"
 
